@@ -25,13 +25,13 @@ The figure below summarises the pipeline.
 
 ### Position --> Range FFT (1st FFT)
 
-<img src="media/1d_fft.png" width="600" height="400" />
+<img src="media/1d_fft.png" width="800" height="600" />
 
 ### Velocity --> 2DCFAR
 
 We generate the Range Doppler Map (2D FFT).
 
-<img src="media/2d_1_fft.png" width="600" height="400" />
+<img src="media/2d_1_fft.png" width="800" height="600" />
 
 To detect the target, we create a window and slide it through the Range Doppler Map.
 First we define the number of training cells and guard cells for range dimension (Tr=10, Gr=4) and doppler dimension (Td=8, Gd=4), respectively.
@@ -43,6 +43,6 @@ Then we sum up the single (convert from decibels to power) in training cells and
 Now we compare the signal under CUT with the threshold value. If the signal under CUT is greater than the threshold, we assign value 1 to it, otherwise we assign value 0 to it. Since CUTs cannot be located at the edges of the matrix, we need to assign value 0 to them. We simply create a double for loop and check if CUTs position is at the edge.
 Finally, we use surf function to plot the output of 2D CFAR.
 
-<img src="media/2d_2_fft.png" width="600" height="400" />
+<img src="media/2d_2_fft.png" width="800" height="600" />
 
 
