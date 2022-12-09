@@ -13,6 +13,6 @@ Each course concludes with a project.
 In this project, the main goal is to process a point clouds in order to detect
 car and trucks on a narrow street using lidar. The detection pipeline consists
 of filtering, segmentation, and clustering methods to extract the bounding
-boxes surrounsing the target objects. The segmentation and clustering methods
+boxes surrounding the target objects. The segmentation and clustering methods
 contains my own implmentation of RANSAC, KD-Tree, and Euclidean clustering
 algorithms.
