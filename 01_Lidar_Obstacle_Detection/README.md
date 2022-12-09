@@ -25,10 +25,7 @@ In this course we will be talking about sensor fusion, whch is the process of ta
    ```sh
    sudo apt install libpcl-dev
    ```
-   **Note** The library version of PCL being distributed by the apt repository for 18.04 and 20.04 are both older than v1.11. The following links have the information regarding the versions-
-
-[Bionic 18.04](https://www.ubuntuupdates.org/package/core/bionic/universe/updates/libpcl-dev)
-[Focal 20.04](https://www.ubuntuupdates.org/package/core/focal/universe/base/libpcl-dev)
+   **Note** The library version of PCL being distributed by the apt repository for 18.04 and 20.04 are both older than v1.11. The following links have the information regarding the versions: [Bionic 18.04](https://www.ubuntuupdates.org/package/core/bionic/universe/updates/libpcl-dev) [Focal 20.04](https://www.ubuntuupdates.org/package/core/focal/universe/base/libpcl-dev)
 
 You can either build PCL from source (for v1.11) or use the older version.
 
