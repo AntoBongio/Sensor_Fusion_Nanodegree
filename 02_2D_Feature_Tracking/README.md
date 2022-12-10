@@ -1,4 +1,4 @@
-# # Project: 2D Feature Tracking
+# Project: 2D Feature Tracking
 
 <img src="images/keypoints.png" width="820" height="248" />
 
