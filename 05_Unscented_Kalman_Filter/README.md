@@ -8,7 +8,9 @@ The main goal of this project is to implement an Unscented Kalman Filter to esti
 
 The red spheres above cars represent the (x,y) lidar detection and the purple lines show the radar measurements with the velocity magnitude along the detected angle. The Z axis is not taken into account for tracking, so you are only tracking along the X/Y axis.
 
+## Final result
 
+<img src="media/project_result.png" width="600" height="350" />
 
 ---
 
