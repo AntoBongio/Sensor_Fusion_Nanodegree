@@ -20,9 +20,16 @@ algorithms.
 
 ## [Project 2 - 2D Feature Tracking](https://github.com)
 
+This project was created to familiarize yourself with the OpenCV API that allows you to extract features, build feature descriptors and run feature matching algorithms. 
+Feature Detectors: Shi-Tomasi, Harris, FAST, BRISK, ORB, AKAZE, SIFT
+Feature Descriptors: BRISK, BRIEF, ORB, FREAK, AKAZE, SIFT
+
+
 ## [Project 3 - 3D Object Tracking (Lidar/Camera)](https://github.com)
 
 ## [Project 4 - Radar](https://github.com/AntoBongio/Sensor_Fusion_Nanodegree/tree/main/04_Radar)
+
+The Radar sensor gives us the ability to estimate the position of a target as well as its velocity, proving to be complementary to Lidar. In the final project, the goal was to generate an artificial moving target, by assuming it is moving with the constant velocity model,  and to simulate a transmitted and received signal as what would be done in a radar module. The signal it is later exploited to calculate Range-Doppler Map (RDM) to ascertain the position and velocity of the target. Because the RDM is inherently noisy due to radar clutter, the CFAR is calculated in 2D in this RDM to finally detect where the object is and its speed.
 
 ## [Project 5 - Unscented Kalman Filter (Lidar/Radar)](https://github.com)
 
