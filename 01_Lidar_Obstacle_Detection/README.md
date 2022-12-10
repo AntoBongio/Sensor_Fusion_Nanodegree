@@ -1,4 +1,4 @@
-# Sensor Fusion Self-Driving Car Course
+# Project: Lidar Obstacle Detection
 
 ## Project pipeline
 

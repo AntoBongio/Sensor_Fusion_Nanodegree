@@ -1,4 +1,4 @@
-# SFND 3D Object Tracking
+# # Project: 3D Object Tracking
 
 <img src="images/course_code_structure.png" width="779" height="414" />
 
