@@ -18,14 +18,14 @@ boxes surrounding the target objects. The segmentation and clustering methods
 contains my own implmentation of RANSAC, KD-Tree, and Euclidean clustering
 algorithms.
 
-## [Project 2 - 2D Feature Tracking](https://github.com)
+## [Project 2 - 2D Feature Tracking](https://github.com/AntoBongio/Sensor_Fusion_Nanodegree/tree/main/02_2D_Feature_Tracking)
 
 This project was created to familiarize yourself with the OpenCV API that allows you to extract features, build feature descriptors and run feature matching algorithms. 
 Feature Detectors: Shi-Tomasi, Harris, FAST, BRISK, ORB, AKAZE, SIFT
 Feature Descriptors: BRISK, BRIEF, ORB, FREAK, AKAZE, SIFT
 
 
-## [Project 3 - 3D Object Tracking (Lidar/Camera)](https://github.com)
+## [Project 3 - 3D Object Tracking (Lidar/Camera)](https://github.com/AntoBongio/Sensor_Fusion_Nanodegree/tree/main/03_3D_Object_Tracking)
 
 This is the final project of the camera core course, the main idea is to combine both lidar and camera data for 3D object tracking. An object detection algorithm is used to first identify the region of interest (ROI) in the colour image. Then the associated keypoint correspondences are used to match 3D objects over time. The time-to-collision (TTC) can be estimated based on lidar 3D points and key point matching pairs within the ROIs.
 
