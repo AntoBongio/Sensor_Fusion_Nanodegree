@@ -10,7 +10,7 @@ The red spheres above cars represent the (x,y) lidar detection and the purple li
 
 ## Final result
 
-<img src="media/ukf.gif" width="600" height="350" />
+<img src="media/ukf.gif" width="800" height="450" />
 
 ---
 
