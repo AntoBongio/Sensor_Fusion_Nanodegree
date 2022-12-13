@@ -33,10 +33,10 @@ Finally, we placed geometrically a bounding box around each individual clusters.
 
 ## Local Installation
 
-1. Clone this github repo:
+1. Clone the entire project github repo:
 
    ```sh
-   git clone https://github.com/udacity/SFND_Lidar_Obstacle_Detection.git
+   git clone git clone https://github.com/AntoBongio/Sensor_Fusion_Nanodegree.git
    ```
 
 2. Execute the following commands in a terminal
