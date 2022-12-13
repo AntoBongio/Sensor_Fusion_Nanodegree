@@ -11,7 +11,13 @@ The idea of this midterm project is to build the feature tracking part and test 
 
 ## Dependencies
 
-* OpenCV 4.2.0
+* cmake >= 2.8
+* make >= 4.1 (Linux)
+* OpenCV >= 4.1
+  * This must be compiled from source using the `-D OPENCV_ENABLE_NONFREE=ON` cmake flag for testing the SIFT and SURF detectors.
+  * The OpenCV 4.1.0 source code can be found [here](https://github.com/opencv/opencv/tree/4.1.0)
+* gcc/g++ >= 5.4
+  * Linux: gcc / g++ is installed by default on most Linux distros
 
 ## Local Installation
 
