@@ -30,7 +30,7 @@ The Radar sensor gives us the ability to estimate the position of a target as we
 
 ## [Project 5 - Unscented Kalman Filter (Lidar/Radar)](https://github.com/AntoBongio/Sensor_Fusion_Nanodegree/tree/main/05_Unscented_Kalman_Filter)
 
-The main goal of this project is to implement an Unscented Kalman Filter to estimate the state of multiple cars on a highway using noisy lidar and radar measurements. We assume that each object its entirely described by a state vector $\mathbf{x}=[p_x, p_y, v, \phi, \dot{\phi}]$. To describe the behaviour of each object, we consider a Constant Turn Rate and Velocity model (CTRV), described in the pdf [CTRV Model](www.google.com) 
+The main goal of this project is to implement an Unscented Kalman Filter to estimate the state of multiple cars on a highway using noisy lidar and radar measurements. We assume that each object its entirely described by a state vector $\mathbf{x}=[p_x, p_y, v, \phi, \dot{\phi}]$, and they behave according to a Constant Turn Rate and Velocity model (CTRV), described in the pdf [CTRV Model](https://github.com/AntoBongio/Sensor_Fusion_Nanodegree/blob/main/05_Unscented_Kalman_Filter/CTRV%20Model.pdf).
 
 To evaluate the solution, it is required to obtain RMSE values that are lower than a well defined tolerance.
 
