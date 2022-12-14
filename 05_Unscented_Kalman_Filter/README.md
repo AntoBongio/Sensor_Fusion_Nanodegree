@@ -1,6 +1,17 @@
 # Project: Unscented Kalman Filter
 
-The main goal of this project is to implement an Unscented Kalman Filter to estimate the state of multiple cars on a highway using noisy lidar and radar measurements. To evaluate the solution, it is required to obtain RMSE values that are lower than a well defined tolerance. 
+The main goal of this project is to implement an Unscented Kalman Filter to estimate the state of multiple cars on a highway using noisy lidar and radar measurements. 
+
+State vector of the tracked objects: $\mathbf{x}=[p_x, p_y, v_x, v_y]$
+
+<img src="media/sf_pipeline.png" width="800" height="450" />
+
+### Prediction step
+We assume that each object behave according to the Constant Turn Rate and Velocity model (CTRV), described [here](https://github.com/AntoBongio/Sensor_Fusion_Nanodegree/blob/main/05_Unscented_Kalman_Filter/CTRV%20Model.pdf).
+
+### Update step
+As observations for the update step, we consider both the lidar and radar to obtain an external partial estimate of the state of each object.
+
 
 ## Brief code description
 
@@ -10,23 +21,32 @@ The red spheres above cars represent the (x,y) lidar detection and the purple li
 
 ## Final result
 
+To evaluate the solution, it is required to obtain RMSE values that are lower than a well defined tolerance. In this video, the RMSE values are always in white, which implies that they are below the threshold.
+
 <img src="media/ukf.gif" width="800" height="450" />
 
 ---
 
 ## Dependencies
-* cmake >= 3.5
-  * All OSes: [click here for installation instructions](https://cmake.org/install/)
-* make >= 4.1 (Linux, Mac), 3.81 (Windows)
-  * Linux: make is installed by default on most Linux distros
-* gcc/g++ >= 5.4
-  * Linux: gcc / g++ is installed by default on most Linux distros
- * PCL 1.2
 
-## Basic Build Instructions
+* PCL - v1.10: ``` sudo apt install libpcl-dev ```
+* C++ v14
+* gcc v9.4
 
-1. Clone this repo.
-2. Make a build directory: `mkdir build && cd build`
-3. Compile: `cmake .. && make`
-4. Run it: `./ukf_highway`
+## Local Installation
 
+1. Clone the entire project github repo:
+
+   ```sh
+   git clone git clone https://github.com/AntoBongio/Sensor_Fusion_Nanodegree.git
+   ```
+
+2. Execute the following commands in a terminal
+
+   ```shell
+   cd 05_Unscented_Kalman_Filter
+   mkdir build && cd build
+   cmake ..
+   make
+   ./ukf_highway
+   ```
