@@ -11,7 +11,7 @@ We assume that each object behave according to the Constant Turn Rate and Veloci
 
 ### Update step
 As observations for the update step, we consider both the lidar and radar to obtain an external partial estimate of the state of each object.
-The \textbf{Lidar} is capable of measuring position of the object w.r.t. itself, so it defines a linear correspondence between the observed states $[p_x, p_y]$ and the state vector $[p_x, p_y, v_x, v_y]$. On the contrary, the radar can not directly preceive the state variable of the object, instead it gives a measure of the range, the bearing angle and the range rate of the object. To transform these variables into the state vector, we have to define a non linear correspondence between the two vectors.
+The \textbf{Lidar} is capable of measuring position of the object w.r.t. itself, so it defines a linear correspondence between the observed states $[p_x, p_y]$ and the state vector $[p_x, p_y, v_x, v_y]$. On the contrary, the radar can not directly preceive the state variable of the object, instead it gives a measure of the range, the bearing angle and the range rate of the object $[\rho, \psi, \dot{\rho}]$. To transform these variables into the state vector, we have to define a non linear correspondence between the two vectors.
 
 ## Brief code description
 
