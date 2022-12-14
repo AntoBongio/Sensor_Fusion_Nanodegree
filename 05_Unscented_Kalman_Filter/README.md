@@ -2,16 +2,16 @@
 
 The main goal of this project is to implement an Unscented Kalman Filter to estimate the state of multiple cars on a highway using noisy lidar and radar measurements. 
 
-State vector of the tracked objects: $\mathbf{x}=[p_x, p_y, v_x, v_y]$
+State vector of the tracked objects: $\mathbf{x}=[p_x, p_y, v_x, v_y]^T$
 
-<img src="media/sf_pipeline.png" width="800" height="450" />
+<img src="media/sf_pipeline.png" width="1000" height="550" />
 
 ### Prediction step
 We assume that each object behave according to the Constant Turn Rate and Velocity model (CTRV), described [here](https://github.com/AntoBongio/Sensor_Fusion_Nanodegree/blob/main/05_Unscented_Kalman_Filter/CTRV%20Model.pdf).
 
 ### Update step
 As observations for the update step, we consider both the lidar and radar to obtain an external partial estimate of the state of each object.
-
+The \textbf{Lidar} is capable of measuring position of the object w.r.t. itself, so it defines a linear correspondence between the observed states $[p_x, p_y]$ and the state vector $[p_x, p_y, v_x, v_y]$. On the contrary, the radar can not directly preceive the state variable of the object, instead it gives a measure of the range, the bearing angle and the range rate of the object. To transform these variables into the state vector, we have to define a non linear correspondence between the two vectors.
 
 ## Brief code description
 
