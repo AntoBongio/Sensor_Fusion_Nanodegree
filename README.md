@@ -7,7 +7,7 @@ This Nanodegree program consists of four core courses:
 - Radar
 - Kalman filters
 
-Each course concludes with a project. [Nanodegree certificate](https://confirm.udacity.com/U5XUPGDV).
+[Nanodegree certificate](https://confirm.udacity.com/U5XUPGDV)
 
 ## [Project 1 - Lidar Obstacle Detection](https://github.com/AntoBongio/Sensor_Fusion_Nanodegree/tree/main/01_Lidar_Obstacle_Detection)
 
